@@ -1,0 +1,74 @@
+@import 'normalize.css';
+:root {
+  --primary: rgba(254, 44, 85, 1);
+  --black: #000;
+  --text-color: #161823;
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1150px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+
+button,
+input,
+[tabIndex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("/assets/fonts/Proxima-Nova-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url("/assets/fonts/ProximaNova-Semibold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url("/assets/fonts/Proxima-Nova-Bold.woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: SofiaPro;
+  src: url("/assets/fonts/sofiapro-bold.woff");
+  font-weight: 700;
+}
+body .tippy-box {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgba(84, 84, 84, 0.92);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  height: 34px;
+}
+body .tippy-box .tippy-content {
+  padding: 0;
+}
+body .tippy-box .tippy-arrow {
+  color: rgba(84, 84, 84, 0.9215686275);
+}
+body .tippy-box .tippy-arrow:after {
+  border-color: transparent;
+  top: -8px;
+}/*# sourceMappingURL=GlobalStyle.css.map */

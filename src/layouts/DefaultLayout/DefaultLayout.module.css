@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+}/*# sourceMappingURL=DefaultLayout.module.css.map */
